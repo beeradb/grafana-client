@@ -56,7 +56,6 @@ class AlertingProvisioning(Base):
         """
         :param folder_uid:
         :param group_uid:
-        :param disable_provenance:
         :return:
         """
         get_rule_group_path = "/v1/provisioning/folder/%s/rule-groups/%s" % (folder_uid, group_uid)
